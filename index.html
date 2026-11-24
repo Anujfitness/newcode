@@ -520,9 +520,9 @@
                         <a href="#contact" class="btn btn-devops-outline">
                             <i class="bi bi-send me-2"></i>Get In Touch
                         </a>
-                        <button type="button" id="downloadResumeBtn" class="btn btn-devops-outline">
-                            <i class="bi bi-file-earmark-arrow-down me-2"></i>Resume
-                        </button>
+                        <a href="Anuj_Khanduri_DevOps_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-devops-outline">
+                            <i class="bi bi-file-earmark-pdf me-2"></i>Resume
+                        </a>
                     </div>
 
                     <!-- Quick Location & Social Strip -->
@@ -1048,13 +1048,6 @@
                     }
                     document.body.removeChild(tempInput);
                 });
-            });
-
-            /* ----------------------------------------------------------------------
-               3. RESUME BUTTON FEEDBACK
-               ---------------------------------------------------------------------- */
-            document.getElementById('downloadResumeBtn').addEventListener('click', () => {
-                showToast('Tip: Link your resume.pdf file to this button in index.html!');
             });
 
             /* ----------------------------------------------------------------------
